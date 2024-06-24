@@ -1,0 +1,18 @@
+apiVersion: k0sctl.k0sproject.io/v1beta1
+kind: Cluster
+metadata:
+  name: kubevirt-cluster
+spec:
+  hosts:
+  - ssh:
+      address: 3.87.49.158
+      user: ubuntu
+      port: 22
+      keyPath: /Users/kng/Kevin/Work/Mirantis/Demo/certs/kng-msr.pem
+    role: controller
+  - ssh:
+      address: 34.205.172.152
+      user: ubuntu
+      port: 22
+      keyPath: /Users/kng/Kevin/Work/Mirantis/Demo/certs/kng-msr.pem
+    role: worker
