@@ -11,7 +11,7 @@ spec:
       keyPath: /Users/kng/Kevin/Work/Mirantis/Demo/certs/kng-msr.pem
     role: controller
   - ssh:
-      address: 3.232.131.145
+      address: 54.87.148.11
       user: ubuntu
       port: 22
       keyPath: /Users/kng/Kevin/Work/Mirantis/Demo/certs/kng-msr.pem
