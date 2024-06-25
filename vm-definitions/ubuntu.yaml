@@ -37,7 +37,7 @@ spec:
       - cloudInitNoCloud:
           userData: |-
             #cloud-config
-            # Update username and password here
+            # *Update username and password here*
             user: kevin  
             password: pass
         name: cloudinit

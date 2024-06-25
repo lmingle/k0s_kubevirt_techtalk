@@ -3,7 +3,7 @@ kind: VirtualMachine
 metadata:
   name: ubuntu2
   labels:
-    special: key
+    special: key2
 spec:
   runStrategy: Always
   template:
@@ -37,7 +37,7 @@ spec:
       - cloudInitNoCloud:
           userData: |-
             #cloud-config
-            # Update username and password here
+            # *Update username and password here*
             user: kevin  
             password: pass
         name: cloudinit
