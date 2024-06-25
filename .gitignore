@@ -1,2 +1,3 @@
 *.conf
 /workloads
+.DS_Store
