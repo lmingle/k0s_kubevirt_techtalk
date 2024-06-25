@@ -5,13 +5,13 @@ metadata:
 spec:
   hosts:
   - ssh:
-      address: 3.87.49.158
+      address: 3.80.234.62
       user: ubuntu
       port: 22
       keyPath: /Users/kng/Kevin/Work/Mirantis/Demo/certs/kng-msr.pem
     role: controller
   - ssh:
-      address: 34.205.172.152
+      address: 3.232.131.145
       user: ubuntu
       port: 22
       keyPath: /Users/kng/Kevin/Work/Mirantis/Demo/certs/kng-msr.pem
